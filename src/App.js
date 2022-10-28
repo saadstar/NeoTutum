@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/"><PageOne /></Route>
-        <Route exact path="/install"><Pagetwo /></Route>
+        <Route path="/install"><Pagetwo /></Route>
       </Switch>
     </div>
   );
